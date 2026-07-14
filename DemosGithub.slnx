@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DemosGithub.Api/DemosGithub.Api.csproj" />
+    <Project Path="src/DemosGithub.Core/DemosGithub.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DemosGithub.Benchmarks/DemosGithub.Benchmarks.csproj" />
+  </Folder>
+</Solution>
