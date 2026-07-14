@@ -46,7 +46,7 @@ dotnet run --project tests/DemosGithub.Benchmarks -c Release -- --filter "*Produ
 
 | Benchmark | Description |
 |-----------|-------------|
-| `GetAll` | Lists all 1 000 products |
+| `GetAll` | Lists all 1,000 products |
 | `GetById` | Looks up an existing product by id |
 | `GetByIdMiss` | Looks up a non-existing product |
 | `Search` | Partial-name search across all products |

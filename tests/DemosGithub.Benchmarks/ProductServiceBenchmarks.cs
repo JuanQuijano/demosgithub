@@ -18,7 +18,7 @@ public class ProductServiceBenchmarks
     [GlobalSetup]
     public void Setup() => _service = new ProductService();
 
-    [Benchmark(Description = "GetAll – list all 1 000 products")]
+    [Benchmark(Description = "GetAll – list all 1,000 products")]
     public int GetAll() => _service.GetAll().Count;
 
     [Benchmark(Description = "GetById – lookup existing product by id")]
